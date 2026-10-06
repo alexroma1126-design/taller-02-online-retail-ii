@@ -1,0 +1,37 @@
+TALLER 02 - PREDICCION DE VENTAS
+=================================================================
+
+Unidad temporal: ventas diarias
+Observaciones modeladas: 711
+
+Train: 2009-12-29 -> 2011-07-19
+Test: 2011-07-20 -> 2011-12-09
+
+Variables predictoras:
+- DayOfWeek
+- Month
+- DayOfMonth
+- DayOfYear
+- IsWeekend
+- DowSin
+- DowCos
+- YearSin
+- YearCos
+- SalesLag1
+- SalesLag7
+- SalesLag14
+- SalesLag28
+- SalesRolling7
+- SalesRolling14
+- SalesRolling28
+- SalesStd7
+- SalesStd28
+
+RESULTADOS
+            Model        MAE       RMSE      R2   sMAPE
+    Random Forest 10761.0037 18308.3849  0.4170 44.6549
+Linear Regression 11485.2507 18053.9990  0.4331 56.1174
+    Decision Tree 13220.7164 21271.9872  0.2130 41.0403
+   Baseline Lag-1 20091.7948 26551.3261 -0.2262 90.0817
+
+Mejor modelo ML segun MAE: Random Forest

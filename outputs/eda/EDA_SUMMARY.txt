@@ -1,0 +1,14 @@
+TALLER 02 - RESUMEN EDA
+============================================================
+Transacciones limpias: 793,609
+Clientes: 5,878
+Facturas: 36,969
+Productos: 4,631
+Paises: 41
+Ventas totales: £17,685,460.64
+
+Mes de mayores ventas: 2010-11
+Ventas del mejor mes: £1,166,460.02
+Dia de mayores ventas: 2011-12-09
+Ventas del mejor dia: £184,347.66
+Hora de mayores ventas acumuladas: 12:00

@@ -1,0 +1,26 @@
+TALLER 02 - SEGMENTACION DE CLIENTES
+=================================================================
+
+Clientes analizados: 5,878
+
+Variables:
+- Recency
+- Frequency
+- Monetary
+- Quantity
+- UniqueProducts
+- AvgOrderValue
+
+K-MEANS
+Mejor K: 2
+Silhouette: 0.3640
+
+MEAN SHIFT
+Bandwidth: 1.9739
+Clusters encontrados: 8
+Silhouette: 0.1811
+
+COMPARACION
+    Method  Clusters  Silhouette  CalinskiHarabasz  DaviesBouldin
+   K-Means         2      0.3640         4549.4038         1.0257
+Mean Shift         8      0.1811          253.2709         1.1055

@@ -1,0 +1,23 @@
+﻿# Entorno Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datos originales
+data/*.xlsx
+data/*.xls
+data/*.zip
+
+# Dataset limpio grande (~102 MB)
+outputs/online_retail_clean.csv
+
+# Modelos binarios reproducibles
+models/*.joblib
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/

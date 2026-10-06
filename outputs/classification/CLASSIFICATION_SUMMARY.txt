@@ -1,0 +1,20 @@
+TALLER 02 - CLASIFICACION DE CLIENTES
+============================================================
+
+Definicion:
+Premium = cliente situado en el 25% superior de ventas del periodo futuro.
+
+Fecha de corte: 2010-12-01
+Clientes utilizados: 2,726
+Umbral Premium: GBP 2,246.21
+Premium: 682
+Normales: 2,044
+
+Baseline accuracy: 0.7491
+
+Resultados:
+              Model  Accuracy  Precision  Recall     F1  ROC_AUC
+      Random Forest    0.8407     0.6623  0.7445 0.7010   0.8756
+Logistic Regression    0.8187     0.6118  0.7591 0.6775   0.8655
+
+Mejor modelo por F1: Random Forest
