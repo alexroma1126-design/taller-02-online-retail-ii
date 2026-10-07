@@ -1,0 +1,4 @@
+Task,V1_Model,Final_Model,Primary_Metric,V1_Value,Final_Value,Result
+Classification,Random Forest,Random Forest,F1,0.701,0.701,V1 retained after rigorous V2 comparison
+Clustering,"K-Means, 6 features","K-Means, RFM, K=2",Silhouette,0.364,0.4386,+20.50% relative improvement
+Sales forecasting,Random Forest,Extra Trees + calendar rule,MAE,10761.0,9576.1,11.01% lower MAE

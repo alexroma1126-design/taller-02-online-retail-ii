@@ -1,0 +1,2 @@
+FeatureSet,Features,Scaler,K,KMeansSilhouette,KMeansCalinski,KMeansDavies,KMeansMeanARI,MeanShiftQuantile,MeanShiftBandwidth,MeanShiftClusters,MeanShiftSilhouette
+RFM,"Recency, Frequency, Monetary",StandardScaler,2,0.43863051349928683,6185.145597862318,0.8727471342113939,0.9970038874998999,0.25,1.3715725902268072,2,0.42459751970890325

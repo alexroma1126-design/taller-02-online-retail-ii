@@ -1,0 +1,23 @@
+{
+  "Extra Trees Squared": {
+    "n_estimators": 300,
+    "min_samples_split": 4,
+    "min_samples_leaf": 8,
+    "max_features": 0.4,
+    "max_depth": 16
+  },
+  "Extra Trees Absolute": {
+    "n_estimators": 700,
+    "min_samples_split": 4,
+    "min_samples_leaf": 8,
+    "max_features": 0.4,
+    "max_depth": 12
+  },
+  "Gradient Boosting Huber": {
+    "n_estimators": 100,
+    "min_samples_leaf": 8,
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "alpha": 0.8
+  }
+}

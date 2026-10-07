@@ -1,0 +1,13 @@
+{
+  "cutoff": "2010-12-01",
+  "premium_threshold": 2246.21,
+  "train_size": 2180,
+  "test_size": 546,
+  "champion_model": "Logistic Regression",
+  "champion_threshold": 0.5200000000000004,
+  "champion_oof_f1": 0.698961937716263,
+  "test_evaluated": true,
+  "final_test_f1": 0.6962457337883959,
+  "final_test_roc_auc": 0.8691663840950868,
+  "final_test_pr_auc": 0.7599455234975454
+}

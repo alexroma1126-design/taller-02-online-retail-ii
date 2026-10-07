@@ -1,0 +1,25 @@
+Check,OK,Detail
+Existe outputs\champion\classification_champion_metrics.csv,True,
+Existe outputs\champion\classification_v1_vs_v2_comparison.csv,True,
+Existe outputs\champion\clustering_champion_comparison.csv,True,
+Existe outputs\champion\clustering_champion_profiles.csv,True,
+Existe outputs\champion\clustering_champion_stability.csv,True,
+Existe outputs\champion\forecasting_champion_metrics.csv,True,
+Existe outputs\champion\forecasting_champion_predictions.csv,True,
+Existe outputs\champion\FINAL_MODEL_SUMMARY.csv,True,
+Clasificacion final = Random Forest,True,
+F1 clasificacion >= 0.70,True,F1=0.7010
+ROC-AUC clasificacion >= 0.87,True,AUC=0.8756
+K-Means V2 supera Silhouette V1,True,0.3640 -> 0.4386
+Silhouette K-Means V2 >= 0.43,True,0.4386
+ARI promedio >= 0.99,True,ARI=0.9970
+Forecast champion identificado,True,
+MAE forecasting < 9600,True,MAE=9576.10
+R2 forecasting > 0.52,True,R2=0.5241
+sMAPE forecasting < 32,True,sMAPE=31.38
+Resumen contiene tres tareas,True,Filas=3
+Resumen contiene todas las tareas,True,
+README contiene: Optimizacion y seleccion final de modelos,True,
+README contiene: Silhouette = 0.4386,True,
+"README contiene: MAE = 9,576.10",True,
+README contiene: F1 = 0.7010,True,
